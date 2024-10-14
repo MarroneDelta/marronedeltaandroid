@@ -56,4 +56,16 @@ public class Pessoa {
 
     }
 
+    // To string serve para== Textos,e/ou Para string de caracteres
+
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "primeiroNome='" + primeiroNome + '\'' +
+                ", sobreNome='" + sobreNome + '\'' +
+                ", nomedoCurso='" + nomedoCurso + '\'' +
+                ", telefonedeContato='" + telefonedeContato + '\'' +
+                '}';
+    }
 }

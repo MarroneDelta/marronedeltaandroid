@@ -1,6 +1,7 @@
 package devandroid.junior.applistadesejos.view;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         outrapessoa.setNomedoCurso("Andoid2024");
         outrapessoa.setTelefonedeContato("11-9989598");
 
-        dadosPessoa = " \nPrimeiro nome:\n\n ";
+/*      dadosPessoa = " \nPrimeiro nome:\n\n ";
         dadosPessoa += pessoa.getPrimeiroNome();
         dadosPessoa += " \n\nSobrenome:\n\n ";
         dadosPessoa += pessoa.getSobreNome();
@@ -59,10 +60,10 @@ public class MainActivity extends AppCompatActivity {
         dadosOutraPessoa +=" \n\nNome do curso:\n\n ";
         dadosOutraPessoa += outrapessoa.getNomedoCurso();
         dadosOutraPessoa +=" \n\nTelefone Contato:\n\n ";
-        dadosOutraPessoa +=outrapessoa.getTelefonedeContato();
+        dadosOutraPessoa +=outrapessoa.getTelefonedeContato();*/
 
-        int parada = 0;
-
+        Log.i("POOANDROID",pessoa.toString());
+        Log.i("POOANDROID",outrapessoa.toString());
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
