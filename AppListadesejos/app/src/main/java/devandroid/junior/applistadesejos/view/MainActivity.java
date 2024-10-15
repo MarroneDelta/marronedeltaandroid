@@ -102,6 +102,9 @@ public class MainActivity extends AppCompatActivity {
                 pessoa.setSobreNome(editsobrenomeAluno.getText().toString());
                 pessoa.setNomedoCurso(editNomedoCurso.getText().toString());
                 pessoa.setTelefonedeContato(edittelefonecontato.getText().toString());
+                Toast.makeText(MainActivity.this,"Salvo" +pessoa.toString(),Toast.LENGTH_LONG).show(); // criaçao da mensagem final.
+
+
 
             }
         });
